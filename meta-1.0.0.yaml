@@ -1,0 +1,29 @@
+metaModel:
+    description: Metadata object model
+    readOnly: true
+    type: object
+    properties:
+      processing_time:
+        type: string
+        description: "The processing time for this request in human readable format."
+        example: "10 milliseconds"
+      processing_time_ms:
+        type: integer
+        description: "The processing time for this request in milliseconds."
+        example: 10
+      total_records:
+        type: integer
+        description: "Total number of the results which meets the search criteria regardless of the page and limit."
+        example: 38
+      page:
+        type: integer
+        description: "The current page for this collection request."
+        example: 3
+      limit:
+        type: integer
+        description: "The number of records per page."
+        example: 10
+      count:
+        type: integer
+        description: "Number of records in the current page"
+        example: 8

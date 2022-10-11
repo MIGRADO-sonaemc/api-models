@@ -10,7 +10,7 @@ metaModel:
       processing_time_ms:
         type: integer
         description: "The processing time for this request in milliseconds."
-        example: 10
+        example: 15
       total_records:
         type: integer
         description: "Total number of the results which meets the search criteria regardless of the page and limit."

@@ -10,7 +10,7 @@ Problem:
         it is neither recommended to be dereferencable and point to a
         human-readable documentation nor globally unique for the problem type.
       default: 'about:blank'
-      example: '/problem/connection-error'
+      example: '/problem/connection_error'
     title:
       type: string
       description: >
@@ -43,4 +43,4 @@ Problem:
         A URI reference that identifies the specific occurrence of the problem,
         e.g. by adding a fragment identifier or sub-path to the problem type.
         May be used to locate the root of this problem in the source code.
-      example: '/problem/connection-error#token-info-read-timed-out'
+      example: '/problem/connection_error#token_info_read_timed_out'
